@@ -1,0 +1,65 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  width: 100%;
+  min-height: 70vh;
+  background: url('assests/pexels-victorfreitas-949132.jpg') no-repeat center center/cover;
+  position: relative;
+  padding-top: 80px;
+}
+
+/* NAVBAR */
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  position: absolute;
+  top: 20px;
+}
+
+.custom-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar a:hover {
+  color: #ff4d4d;
+}
+
+/* HERO TEXT */
+.hero-text {
+  margin-top: 80px;
+}
+
+/* SERVICES SECTION */
+.j3 {
+  background: linear-gradient(rgba(31, 28, 28, 0.7), rgba(31, 28, 28, 0.7)), url("assests/gym5.jpg") center/cover no-repeat;
+}
+
+.service-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  text-align: justify;
+  color: #fff;
+}
+
+/* FEEDBACK IMAGE */
+.feedback img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 768px) {
+  .hero-text h2 {
+    font-size: 32px;
+  }
+}
